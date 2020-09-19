@@ -5,10 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Arrays Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css">
 </head>
 
 <body>
-  <h1>Example</h1>
+  <!-- As a link -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="/">Products</a>
+    <!-- Search Form -->
+    <form class="form-inline my-2 my-lg-0" id="search-product-form">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search-name">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+
+  <main class="container p-4">
+    <div id="product-list" class="row"></div>
+  </main>
+
+  <script src="./index.js" type="module"></script>
 </body>
 
 </html>
